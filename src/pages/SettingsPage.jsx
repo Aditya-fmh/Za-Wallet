@@ -34,7 +34,7 @@ export function SettingsPage() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `penny-wallet-export-${new Date().toISOString().split('T')[0]}.json`;
+    a.download = `za-wallet-export-${new Date().toISOString().split('T')[0]}.json`;
     a.click();
     URL.revokeObjectURL(url);
   };
@@ -63,7 +63,7 @@ export function SettingsPage() {
             P
           </div>
           <div>
-            <h2 className="text-xl font-bold">Penny Wallet</h2>
+            <h2 className="text-xl font-bold">Za Wallet</h2>
             <p className="text-muted-foreground">Your personal finance tracker</p>
           </div>
         </div>
@@ -250,7 +250,7 @@ export function SettingsPage() {
               <span className="text-lg font-bold">P</span>
             </div>
             <div>
-              <p className="font-semibold">Penny Wallet</p>
+              <p className="font-semibold">Za Wallet</p>
               <p className="text-sm text-muted-foreground">Version 1.0.0</p>
             </div>
           </div>

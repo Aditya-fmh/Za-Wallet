@@ -21,7 +21,7 @@ export function BottomNav() {
               <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
             </svg>
           </div>
-          <span className="text-xl font-bold">Penny</span>
+          <span className="text-xl font-bold">Za Wallet</span>
         </div>
 
         <div className="flex-1 space-y-2">
