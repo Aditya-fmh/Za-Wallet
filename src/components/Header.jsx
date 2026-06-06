@@ -23,17 +23,6 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 bg-background/95 backdrop-blur-lg border-b border-border px-4 py-3 lg:py-4">
       <div className="flex items-center justify-between max-w-3xl mx-auto">
-        {/* Mobile logo */}
-        <div className="lg:hidden flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-accent to-accent/80 flex items-center justify-center shadow-lg shadow-accent/25">
-            <svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-              <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
-            </svg>
-          </div>
-          <span className="text-lg font-bold bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text">Za Wallet</span>
-        </div>
-
-        {/* Desktop spacer */}
         <div className="hidden lg:block" />
 
         <div className="flex items-center gap-1">
