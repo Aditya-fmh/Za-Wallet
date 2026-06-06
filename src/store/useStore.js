@@ -21,7 +21,7 @@ export const useStore = create(
   persist(
     (set, get) => ({
       // Theme
-      theme: 'light',
+      theme: 'dark',
       toggleTheme: () => set((state) => ({
         theme: state.theme === 'light' ? 'dark' : 'light'
       })),
